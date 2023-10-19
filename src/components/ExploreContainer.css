@@ -24,7 +24,7 @@
 }
 
 #card div{
-  border-radius: 5px;
+  border-radius: 50px;
   border-color: aliceblue;
 }
 #card-container div{
@@ -34,7 +34,27 @@
   top: 30%;
 }
 
+#card-btn {
+  font-weight: bold;
+  width: 25%;
+  background: #034b40;
+  padding: 10px;
+}
+#card-btn:hover {
+  background: #2a956f;
+  padding: 10prgb(17, 81, 145)
+}
+
 #card-img {
   max-width: 40%;
   max-height: 40%;
+}
+
+.modal {
+  position: absolute;
+  background-color: rgb(0 0 0 / 0.92);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
